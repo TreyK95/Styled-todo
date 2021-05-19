@@ -3,6 +3,7 @@ import "./App.css";
 import Todos from "./components/Todos";
 import { motion } from "framer-motion";
 import DisplayTodos from "./components/DisplayTodos";
+import "./css/main.css";
 
 function App() {
   return (
