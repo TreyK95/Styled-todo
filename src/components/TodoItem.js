@@ -29,7 +29,7 @@ const TodoItem = (props) => {
         x: "-60vw",
         scale: [1, 0],
         transition: { duration: 0.5 },
-        backgroundColor: "rgba(255,0,0,1",
+        backgroundColor: "rgba(255,0,0,1)",
       }}
       key={item.id}
       className="card"

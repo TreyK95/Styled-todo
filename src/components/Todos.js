@@ -21,6 +21,10 @@ const Todos = (props) => {
 
   const [todo, setTodo] = useState("");
 
+  const handleChange = (e) => {
+    setTodo(e.target.value);
+  };
+
   const add = () => {
     if (todo === "") {
       alert("Input is Empty");
@@ -32,10 +36,6 @@ const Todos = (props) => {
       });
       setTodo("");
     }
-  };
-
-  const handleChange = (e) => {
-    setTodo(e.target.value);
   };
 
   return (
