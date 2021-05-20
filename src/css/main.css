@@ -1,4 +1,4 @@
-@import url("httpshttps://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
 
 html {
   line-height: 1.15;
@@ -49,13 +49,17 @@ body {
   width: 40vw;
   max-height: 2.5rem;
   background-color: #e1ebfd;
+  border: none;
+  border-radius: 5px;
   padding: 0.5rem, 1rem;
   align-self: center;
+  height: 150px;
+  font-size: 14pt;
 }
 
 .todo-input:focus {
   outline: none;
-  border: 2px solid reb(67, 58, 1687);
+  border: 3px solid rgb(67, 58, 168);
 }
 .add-btn {
   margin-left: 1rem;
@@ -77,6 +81,13 @@ body {
   outline: none;
 }
 
+.displaytodos {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .displaytodos .buttons {
   margin-bottom: 2rem;
 }
@@ -86,9 +97,14 @@ body {
   border-radius: 20px;
   cursor: pointer;
   border: none;
+  margin-right: 1rem;
 }
 
 .displaytodos .buttons button:focus {
+  outline: none;
+}
+
+.displaytodos .buttons button:not(:last-child) {
   outline: none;
 }
 

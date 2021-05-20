@@ -14,7 +14,7 @@ function App() {
         transition={{ type: "spring", duraction: 0.5 }}
         whileHover={{ scale: 1.1 }}
       >
-        ToDo List
+        ToDo List:
       </motion.h1>
       <motion.div
         initial={{ y: 1000 }}

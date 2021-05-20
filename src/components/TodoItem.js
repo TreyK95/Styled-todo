@@ -69,7 +69,7 @@ const TodoItem = (props) => {
           <IoClose />
         </motion.button>
       </div>
-      {item.completed && <span className="completed">done</span>}
+      {item.completed && <span className="completed">DONE</span>}
     </motion.li>
   );
 };
